@@ -1,0 +1,10 @@
+@media (max-width: 425px){
+    .header{
+        &__logo{
+            height: 80px;
+        }
+        &__link{
+            margin-right: 10px;
+        }
+    }
+}

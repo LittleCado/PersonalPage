@@ -1,1 +1,23 @@
-@import "null_style"
+@mixin flex ($align, $justify, $direction){
+    display: flex;
+    align-items: $align;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+@import "variables";
+@import "fonts";
+@import "null_style";
+@import "header";
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.wrapper{
+    max-width: $wrapper-max-width;
+    width: 100%;
+
+}
+
+@import "responsive/header-ressponsive";

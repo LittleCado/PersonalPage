@@ -9,15 +9,20 @@
 @import "fonts";
 @import "null_style";
 @import "header";
+@import "first-page";
 
 body{
     font-family: 'Nunito', sans-serif;
 }
 
-.wrapper{
-    max-width: $wrapper-max-width;
-    width: 100%;
+.width-limit{
+    padding: 20px 10vw;
+}
 
+@media (min-width: 1440px){
+    .width-limit{
+        padding: 20px 20vw;
+    }
 }
 
 @import "responsive/header-ressponsive";

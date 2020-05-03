@@ -1,11 +1,7 @@
 .header{
     background-color: $main-bg-color;
-    padding: 10px 30px;
     border-bottom: 2px solid $border-color;
-    .wrapper{
-        margin: 0 auto;
-        @include flex (center, space-around, row);
-    }
+    @include flex (center, space-around, row);
     &__item{
         &:first-child{
             flex-grow: 1;
@@ -23,7 +19,7 @@
         transition: .4s;
         &:hover{
             letter-spacing: .1rem;
-            color: #5ca795;
+            color: $main-hover-light-color;
         }
     }
 }

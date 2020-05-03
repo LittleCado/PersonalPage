@@ -1,6 +1,6 @@
 @charset "UTF-8";
 a {
-  font-size: 20px;
+  font-size: 22px;
   color: #1e7e67;
 }
 
@@ -150,5 +150,6 @@ body {
   }
   .header__link {
     margin-right: 10px;
+    font-size: 20px;
   }
 }

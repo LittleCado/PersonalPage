@@ -1,6 +1,6 @@
 @charset "UTF-8";
 a {
-  font-size: 22px;
+  font-size: 24px;
   color: #1e7e67;
 }
 
@@ -144,12 +144,23 @@ body {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 426px) {
+  .header {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .header__logo {
     height: 80px;
   }
   .header__link {
-    margin-right: 10px;
-    font-size: 20px;
+    margin-right: 0;
+  }
+  .header__item {
+    margin-bottom: 15px;
+  }
+  .header__item:last-child {
+    margin-bottom: 0;
   }
 }

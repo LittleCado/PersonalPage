@@ -5,9 +5,9 @@
     flex-direction: $direction;
 }
 
+@import "null_style";
 @import "variables";
 @import "fonts";
-@import "null_style";
 @import "header";
 @import "first-page";
 

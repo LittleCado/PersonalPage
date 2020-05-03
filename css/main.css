@@ -1,9 +1,4 @@
 @charset "UTF-8";
-a {
-  font-size: 24px;
-  color: #1e7e67;
-}
-
 /*Обнуление*/
 * {
   padding: 0;
@@ -78,6 +73,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+h1 {
+  font-size: 80px;
+  color: #1e7e67;
+}
+
+h2 {
+  font-size: 24px;
+  color: #1e7e67;
+}
+
+a {
+  font-size: 24px;
+  color: #1e7e67;
+}
+
 .header {
   background-color: #dbe9e4;
   border-bottom: 2px solid #c6c6c641;
@@ -127,7 +137,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .first-page {
-  min-height: calc(100vh - 142px);
+  min-height: calc(100vh - 162px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #dbe9e4;
+  overflow: hidden;
+}
+
+.first-page__heading-one {
+  margin-top: 20vh;
+}
+
+.first-page__heading-two {
+  margin-top: 10vh;
+}
+
+.first-page__image {
+  margin-top: 10vh;
+  width: 100vw;
+  max-width: 800px;
+  min-width: 400px;
 }
 
 body {

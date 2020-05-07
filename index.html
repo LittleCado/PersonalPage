@@ -9,7 +9,7 @@
 </head>
 <body>
     <header class="header width-limit">
-        <div class="header__item"><img class="header__logo" src="img/me.svg" alt="logo with smiling man"></div>
+        <div class="header__item"><img class="header__logo my-face" src="img/me.svg" alt="logo with smiling man"></div>
         <div class="header__item"><a class="header__link" href="#">About me</a></div>
         <div class="header__item"><a class="header__link" href="#">Works</a></div>
     </header>
@@ -26,30 +26,32 @@
         <div class="second-page width-limit">
 
             <div class="second-page__card card">
-                <img src="img/me.svg" alt="logo with smiling man" class="card__image">
+                <img src="img/me.svg" alt="logo with smiling man" class="card__image my-face">
                 <h3 class="card__heading">Hi</h3>
-                <p class="card__paragraph">I'm a web developer based in Moscow, Russia. I have a passion for web technology and love to create for web and mobile devices.</p>
+                <div class="desc-info"></div>
+                    <p class="desc-info__text">I'm a web developer based in Moscow, Russia. I have a passion for web technology and love to create for web and mobile devices.</p>
+                </div>
             </div>
 
             <div class="second-page__card card">
-                <img src="img/me.svg" alt="logo with smiling man" class="card__image">
+                <img src="img/me.svg" alt="logo with smiling man" class="card__image my-face">
                 <h3 class="card__heading">What I can do</h3>
                 <!-- skills -->
                 <div class="card__skills">
                     <div class="card__skill-desc desc">
                         <img src="img/me.svg" alt="logo with smiling man" class="decs__image-pers">
                         <img src="img/photoshop.svg" alt="Photoshop logo" class="desc__image-tech">
-                        <div class="desc__info">
-                            <h4 class="desc__heading">Design what you want</h4>
-                            <p class="desc-text">I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
+                        <div class="desc-info">
+                            <h4 class="desc-info__heading">Design what you want</h4>
+                            <p class="desc-info__text">I like to keep it simple. My goals are to focus on typography, content and conveying the message that you want to send.</p>
                         </div>
                     </div>
                     <div class="card__skill-desc desc">
-                        <img src="img/me-dev.svg" alt="logo with smiling man working on computer" class="decs__image-pers">
+                        <img src="img/me-dev.svg" alt="logo with smiling man working on computer" class="decs__image-pers my-face">
                         <img src="img/tablet.svg" alt="tablet" class="desc__image-tech">
-                        <div class="desc__info">
-                            <h4 class="desc__heading">Develop what you need</h4>
-                            <p class="desc-text">I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
+                        <div class="desc-info">
+                            <h4 class="desc-info__heading">Develop what you need</h4>
+                            <p class="desc-info__text">I'm a developer, so I know how to create your website to run across devices using the latest technologies available.</p>
                         </div>
                     </div>
                 </div>
@@ -58,8 +60,10 @@
 
             <div class="second-page__card card">
                 <h3 class="card__heading">I can help</h3>
-                <h4 class="card__caption">I’m currently available for freelance work.</h4>
-                <p class="card__paragraph">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+                <div class="desc-info">
+                    <h4 class="desc-info__heading">I’m currently available for freelance work.</h4>
+                    <p class="desc-info__text">If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.</p>
+                </div>
             </div>
 
         </div>

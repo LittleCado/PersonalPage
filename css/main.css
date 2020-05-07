@@ -103,6 +103,8 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header__item:first-child {
@@ -113,15 +115,6 @@ a {
 
 .header__logo {
   height: 120px;
-  -webkit-transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
-  -o-transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
-  transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
-}
-
-.header__logo:hover {
-  -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .header__link {
@@ -172,12 +165,61 @@ a {
   min-width: 400px;
 }
 
+.second-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 100px;
+}
+
+.second-page__card {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.second-page .desc-info {
+  width: 30%;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
 }
 
 .width-limit {
-  padding: 20px 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+
+.my-face {
+  -webkit-transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
+  -o-transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
+  transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
+}
+
+.my-face:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 @media (min-width: 1440px) {

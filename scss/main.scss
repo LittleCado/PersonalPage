@@ -17,7 +17,15 @@ body{
 }
 
 .width-limit{
-    padding: 20px 10vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+.my-face{
+    transition: .2s cubic-bezier(0.42, 0, 0, 2.01);
+        &:hover{
+            transform: scale(1.1);
+        }
 }
 
 @media (min-width: 1440px){

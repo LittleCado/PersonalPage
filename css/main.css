@@ -159,8 +159,10 @@ a {
   margin-top: 20vh;
 }
 
-.first-page__heading-two {
+.first-page__text {
   margin-top: 10vh;
+  font-size: 24px;
+  color: #1e7e67;
 }
 
 .first-page__image {

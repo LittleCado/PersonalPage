@@ -12,9 +12,6 @@
 @import "first-page";
 @import "second-page";
 
-body{
-    font-family: 'Nunito', sans-serif;
-}
 
 .width-limit{
     padding-left: 10vw;
@@ -23,6 +20,7 @@ body{
 
 .my-face{
     transition: .2s cubic-bezier(0.42, 0, 0, 2.01);
+    border-radius: 50%;
         &:hover{
             transform: scale(1.1);
         }

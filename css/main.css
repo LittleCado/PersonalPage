@@ -73,19 +73,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+h1, h2, h3, h4, a, p {
+  font-family: 'Nunito', sans-serif;
+}
+
 h1 {
   font-size: 80px;
   color: #1e7e67;
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 40px;
   color: #1e7e67;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 22px;
+  color: #28a789;
+  font-weight: 600;
 }
 
 a {
   font-size: 24px;
   color: #1e7e67;
+}
+
+.second-page p {
+  font-family: 'Playfair Display', serif;
+  color: #545454;
+  font-size: 18px;
+  letter-spacing: .1rem;
+  line-height: 1.7rem;
 }
 
 .header {
@@ -181,6 +200,12 @@ a {
   padding-top: 100px;
 }
 
+.second-page .desc-info {
+  width: 30vw;
+  min-width: 290px;
+  max-width: 400px;
+}
+
 .second-page__card {
   width: 100%;
   display: -webkit-box;
@@ -195,14 +220,61 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-bottom: 150px;
 }
 
-.second-page .desc-info {
+.second-page__card_center {
+  text-align: center;
+}
+
+.second-page .card {
+  width: 100%;
+}
+
+.second-page .card__skill-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.second-page .card__skill-desc:last-child {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-top: 100px;
+}
+
+.second-page .card__heading {
+  margin: 50px 0;
+}
+
+.second-page .card__skills {
+  width: 80%;
+  min-width: 620px;
+  max-width: 800px;
+}
+
+.second-page .desc__image-pers {
+  height: 150px;
+}
+
+.second-page .desc__image-tech {
+  width: 80px;
+}
+
+.second-page .desc__info {
   width: 30%;
-}
-
-body {
-  font-family: 'Nunito', sans-serif;
 }
 
 .width-limit {
@@ -214,6 +286,7 @@ body {
   -webkit-transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
   -o-transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
   transition: 0.2s cubic-bezier(0.42, 0, 0, 2.01);
+  border-radius: 50%;
 }
 
 .my-face:hover {

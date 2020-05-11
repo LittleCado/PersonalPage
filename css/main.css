@@ -390,3 +390,43 @@ a {
     margin-bottom: 0;
   }
 }
+
+@media (max-width: 1024px) {
+  .second-page .card__skill-desc {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    min-height: 450px;
+  }
+  .second-page .card__skill-desc:last-child {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .second-page .card__skill-desc .desc-info {
+    width: 40vw;
+  }
+  .second-page .card__skills {
+    min-width: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    min-height: 380px;
+  }
+  .footer__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__input {
+    width: 60vw;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}

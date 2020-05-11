@@ -200,12 +200,6 @@ a {
   padding-top: 100px;
 }
 
-.second-page .desc-info {
-  width: 30vw;
-  min-width: 290px;
-  max-width: 400px;
-}
-
 .second-page__card {
   width: 100%;
   display: -webkit-box;
@@ -255,6 +249,10 @@ a {
   margin-top: 100px;
 }
 
+.second-page .card__skill-desc .desc-info {
+  width: 30vw;
+}
+
 .second-page .card__heading {
   margin: 50px 0;
 }
@@ -265,6 +263,10 @@ a {
   max-width: 800px;
 }
 
+.second-page .card__image {
+  width: 150px;
+}
+
 .second-page .desc__image-pers {
   height: 150px;
 }
@@ -273,8 +275,75 @@ a {
   width: 80px;
 }
 
-.second-page .desc__info {
-  width: 30%;
+.second-page .desc-info {
+  width: 40vw;
+  min-width: 290px;
+  max-width: 400px;
+}
+
+.second-page .desc-info__heading {
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #dbe9e4;
+  border-top: 2px solid #c6c6c641;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer__image {
+  height: 40px;
+}
+
+.footer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer__input {
+  font-family: 'Nunito', sans-serif;
+  padding: 1rem;
+  margin-right: 1rem;
+  border-radius: 10px;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+}
+
+.footer__input:last-child:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 5px 5px 8px 0px rgba(50, 50, 50, 0.2);
+          box-shadow: 5px 5px 8px 0px rgba(50, 50, 50, 0.2);
+}
+
+.footer__input:focus {
+  -webkit-box-shadow: 5px 5px 8px 0px rgba(50, 50, 50, 0.2);
+          box-shadow: 5px 5px 8px 0px rgba(50, 50, 50, 0.2);
 }
 
 .width-limit {
